@@ -62,7 +62,7 @@ app.post("/submit_add_book_request",async (req,res)=>{
     let lccn = req.body.LCCN;
     let today = new Date().toISOString().split('T')[0];
 
-    let key, value;
+    let key , value;
 
     if (isbn) {
         key = "id";
