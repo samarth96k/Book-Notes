@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=intro.owner_name%>'s Book Vault</title>
+    <link rel="stylesheet" href="styles/modal.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <button id="closeModalBtn">Use to close</button>
+        <form action="/submit_add_book_request" method="post">
+            <label for="bookTitle">Book Title: </label>
+            <input type="text" id="bookTitle" name="bookTitle">
+
+            <label for="bookAuthor">Author: </label>
+            <input type="text" id="bookAuthor" name="bookAuthor">
+         
+            <label for="bookNotes">Notes: </label>
+            <textarea name="bookNotes" id="bookNotes"></textarea>
+
+            <label for="rate"></label>
+            <input type="range" id="rate" name="rate" min="1" max="10" step="1" oninput="output.value = rate.value">
+            <output id="output">5</output>
+
+            <label for="bookOnlineShoppingLink">Online Shopping Link</label>
+            <input type="text" id="bookOnlineShoppingLink" name="bookOnlineShoppingLink">
+
+            <label for="isbn">ISBN: </label>
+            <input type="text" id="isbn" name="isbn">
+
+            <label for="olid">OLID: </label>
+            <input type="text" id="olid" name="olid">
+
+            <label for="OCLC">OCLC: </label>
+            <input type="text" id="OCLC" name="OCLC">
+
+            <label for="LCCN">LCCN: </label>
+            <input type="text" id="LCCN" name="LCCN">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

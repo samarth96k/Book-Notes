@@ -1,0 +1,9 @@
+.modalpage{
+    z-index: 0;
+    position:fixed;
+    display: none;
+}
+
+.homepage{
+    z-index: 100;
+}

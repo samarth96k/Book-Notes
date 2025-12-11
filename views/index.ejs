@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=intro.owner_name%>'s Book Vault</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <%- include('header.ejs') %>
+
+        <div class="modalpage"><%- include('add_modal.ejs') %></div>
+
+        <div class="mainpage"><%- include('home_page.ejs') %></div>
+
+    <%- include('footer.ejs') %>
+    <script>
+        const mainPage = document.querySelector(".mainpage");
+        const modalPage = document.querySelector(".modalpage");
+        const openBtn = document.getElementById("openModalBtn");
+        const closeBtn = document.getElementById("closeModalBtn");
+
+        openBtn.addEventListener("click", () => {
+            modalPage.style.display = "block";
+            modalPage.style.zIndex = "9999";
+
+            mainPage.style.filter = "blur(5px)";
+            mainPage.style.opacity = "0.5";
+            mainPage.style.pointerEvents = "none";
+        });
+
+        closeBtn.addEventListener("click", () => {
+            modalPage.style.display = "none";
+
+            mainPage.style.filter = "none";
+            mainPage.style.opacity = "1";
+            mainPage.style.pointerEvents = "auto";
+        });
+    </script>
+</body>
+</html>

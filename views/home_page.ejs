@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=intro.owner_name%>'s Book Vault</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- HELLO FROM HOME_PAGE -->
+    <div class="homepage">
+        <div class="options_bar">
+
+            <form action="/sort/rating" method="GET">
+                <button type="submit" id="sort_by_rating" name="sort_by_rating">Rating</button>
+            </form>
+
+            <form action="/sort/latest" method="GET">
+                <button type="submit" id="sort_by_latest" name="sort_by_latest">Latest</button>
+            </form>
+
+            <form action="/sort/title" method="GET">
+                <button type="submit" id="sort_by_title" name="sort_by_title">Title</button>
+            </form>
+
+            <!-- <form action="/add-book" method="POST">
+                <button type="submit" id="Add_book" name="Add_book">Add Book</button>
+            </form> -->
+            <button id="openModalBtn">Add Book</button>
+        </div>
+
+        <div class="introduction">
+            <p><%=intro.desc%></p>
+        </div>
+        <% for( let index = 0; index < bookNotes.length; index++ ) { %>
+            <div class="book_divs">
+                <div class="book_cover">
+                    <div class="cover_image"><img src="<%=bookNotes[index].img_url%>" alt=""><div>
+                    <div class="edit_button"></div>
+                </div>
+
+                <div class="title_author">
+                    <h2> <%= bookNotes[index].title%> - <%= bookDetails[index].author %> </h2>
+                </div>
+
+                <div class="desc">
+                    DATE READ: <%=bookDetails[index].date_read%>. HOW STRONGLY I RECOMMEND IT: <%=bookDetails[index].recommend%>
+                </div>
+
+                <div class="book_notes">
+                    <%=bookNotes[index].notes %>
+                    <% if(locals.bookDetails[index].amazon_link){ %>
+                        You may checkout this book at <a href="<%=bookDetails[index].amazon_link%>">Online Order</a>
+                    <%}%>
+                </div>
+            </div>
+        <% } %> 
+
+    </div>
+</body>
+</html>
