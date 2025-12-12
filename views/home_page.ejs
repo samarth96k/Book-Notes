@@ -9,6 +9,9 @@
 <body>
     <!-- HELLO FROM HOME_PAGE -->
     <div class="homepage">
+        <div class="introduction">
+            <p><%=intro.desc%></p>
+        </div>
         <div class="options_bar">
 
             <form action="/sort/rating" method="GET">
@@ -29,33 +32,35 @@
             <button id="openModalBtn">Add Book</button>
         </div>
 
-        <div class="introduction">
-            <p><%=intro.desc%></p>
-        </div>
+        <div class="book_div_container">
         <% for( let index = 0; index < bookNotes.length; index++ ) { %>
             <div class="book_divs">
                 <div class="book_cover">
-                    <div class="cover_image"><img src="<%=bookNotes[index].img_url%>" alt=""><div>
+                    <div class="cover_images"><img src="<%=bookNotes[index].img_url%>" alt=""></div>
                     <div class="edit_button"></div>
                 </div>
 
-                <div class="title_author">
-                    <h2> <%= bookNotes[index].title%> - <%= bookDetails[index].author %> </h2>
+                <div class="horizontal-part">
+                    <div class="title_author">
+                        <h2> <%= bookNotes[index].title%> - <%= bookDetails[index].author %> </h2>
+                    </div>
+
+                    <div class="desc">
+                        DATE READ: <%= new Date(bookDetails[index].date_read).toISOString().slice(0, 10) %>. HOW STRONGLY I RECOMMEND IT: <%=bookDetails[index].recommend%>
+                    </div>
+
+                    <div class="book_notes">
+                        <%=bookNotes[index].notes %>
+                        <br>
+                        <% if(locals.bookDetails[index].amazon_link){ %>
+                            You may checkout this book at <a href="<%=bookDetails[index].amazon_link%>">Online Order</a>
+                        <%}%>
+                    </div>                    
                 </div>
 
-                <div class="desc">
-                    DATE READ: <%=bookDetails[index].date_read%>. HOW STRONGLY I RECOMMEND IT: <%=bookDetails[index].recommend%>
-                </div>
-
-                <div class="book_notes">
-                    <%=bookNotes[index].notes %>
-                    <% if(locals.bookDetails[index].amazon_link){ %>
-                        You may checkout this book at <a href="<%=bookDetails[index].amazon_link%>">Online Order</a>
-                    <%}%>
-                </div>
             </div>
         <% } %> 
-
+        </div>
     </div>
 </body>
 </html>

@@ -1,9 +1,148 @@
+*{
+    padding: 0px;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+
 .modalpage{
     z-index: 0;
     position:fixed;
+    top:0;
+    left:0;
     display: none;
 }
 
 .homepage{
-    z-index: 100;
+    width: 100%;
+}
+
+.mainpage{
+    width: 100%;
+    /* padding: 15px; */
+        /* margin-left: 20px;
+        margin-right: 20px; */
+}
+
+p{
+    width: 100%;
+}
+
+.homepage .options_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.options_bar form{
+    flex:1;
+    width: 25%;
+    /* padding: 10px; */
+    background-color: rgba(119, 119, 119);
+}
+
+.options_bar form button{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(119, 119, 119);
+    border-color: rgba(119, 119, 119, 0.773);
+    border-radius: 2%;
+    font-size: large;
+    font-weight: 700;
+}
+
+#openModalBtn{
+    width: 25%;
+    /* margin-top: 14px; */
+    cursor: pointer;
+    height: 30px;
+    background-color: rgba(119, 119, 119);
+    border-color: rgba(119, 119, 119, 0.773);
+    font-size: large;
+    font-weight: 700;
+}
+
+.horizontal-part{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(112, 146, 146); */
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-top: 4px;
+    border-radius: 5%;
+}
+
+#header_img{
+    width: 100%;
+    height: 350px;
+}
+
+.container{
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.introduction p{
+    font-size: larger;
+    text-align:center;
+    line-height: 25px;
+}
+
+.book_divs{
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.book_cover{
+    width: 30%;
+}
+
+.horizontal-part{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.book_cover {
+  display: inline-block;   /* Shrinks to image size */
+  width: auto;
+  height: auto;
+}
+.book_cover img {
+  display: block;          /* Removes extra bottom spacing */
+  max-width: 100%;         /* Optional: prevents overflow */
+}
+
+.cover_images{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.title_author{
+    font-size: 28px;
+    padding-bottom: 12px;
+}
+
+.desc{
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.425);
+    font-variant: small-caps;
+    font-family: 'Quattrocento', serif;
+}
+
+.book_div_container{
+    padding-left: 10%;
+}
+
+.book_notes{
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;margin-top: 10px;
 }

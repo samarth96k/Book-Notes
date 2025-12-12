@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="Page-1" id="kzWDeBnbN0QeE1JGYmr_">
+    <mxGraphModel dx="1389" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HEADER" vertex="1">
+          <mxGeometry height="160" width="760" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INTRODUCTION" vertex="1">
+          <mxGeometry height="200" width="760" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="760" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="SORT BY RATING RECENCY AND TITLE" vertex="1">
+          <mxGeometry height="40" width="760" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-28" edge="1" parent="1" source="3B_UCKLOkOthI2SJjLlC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3B_UCKLOkOthI2SJjLlC-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="1063" />
+              <mxPoint x="510" y="1210" />
+            </Array>
+            <mxPoint x="630" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="BOOK ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SERIAL PRIMARY KEY&lt;div&gt;BOOK TITLE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CHARS 200&lt;/div&gt;&lt;div&gt;&lt;div&gt;I&lt;strike&gt;SBN&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CHARS 13&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;OLID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CHARS 20&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;OCLC&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;CHARS 12&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;&lt;strike&gt;LCCN&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;CHARS 12&lt;/strike&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="213" width="420" x="40" y="956" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-14" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="210" width="760" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-8" parent="3B_UCKLOkOthI2SJjLlC-14" style="whiteSpace=wrap;html=1;aspect=fixed;" value="BOOK COVER" vertex="1">
+          <mxGeometry height="210" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-9" parent="3B_UCKLOkOthI2SJjLlC-14" style="rounded=0;whiteSpace=wrap;html=1;" value="TITLE - AUTHOR" vertex="1">
+          <mxGeometry height="40" width="550" x="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-10" parent="3B_UCKLOkOthI2SJjLlC-14" style="rounded=0;whiteSpace=wrap;html=1;" value="DATE READ :&amp;nbsp; &amp;nbsp; &amp;nbsp;HOW MUCH I RECOMMEND: desc" vertex="1">
+          <mxGeometry height="40" width="550" x="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-11" parent="3B_UCKLOkOthI2SJjLlC-14" style="rounded=0;whiteSpace=wrap;html=1;" value="notes" vertex="1">
+          <mxGeometry height="130" width="550" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-24" parent="3B_UCKLOkOthI2SJjLlC-14" style="rounded=0;whiteSpace=wrap;html=1;" value="EDIT" vertex="1">
+          <mxGeometry height="30" width="50" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="210" width="760" x="40" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-16" parent="3B_UCKLOkOthI2SJjLlC-15" style="whiteSpace=wrap;html=1;aspect=fixed;" value="BOOK COVER" vertex="1">
+          <mxGeometry height="210" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-17" parent="3B_UCKLOkOthI2SJjLlC-15" style="rounded=0;whiteSpace=wrap;html=1;" value="TITLE - AUTHOR" vertex="1">
+          <mxGeometry height="40" width="550" x="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-18" parent="3B_UCKLOkOthI2SJjLlC-15" style="rounded=0;whiteSpace=wrap;html=1;" value="DATE READ :&amp;nbsp; &amp;nbsp; &amp;nbsp;HOW MUCH I RECOMMEND:" vertex="1">
+          <mxGeometry height="40" width="550" x="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-19" parent="3B_UCKLOkOthI2SJjLlC-15" style="rounded=0;whiteSpace=wrap;html=1;" value="DESCRIPTION" vertex="1">
+          <mxGeometry height="130" width="550" x="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-25" parent="3B_UCKLOkOthI2SJjLlC-15" style="rounded=0;whiteSpace=wrap;html=1;" value="EDIT" vertex="1">
+          <mxGeometry height="20" width="50" x="160" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-22" edge="1" parent="1" source="3B_UCKLOkOthI2SJjLlC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="180" />
+              <mxPoint x="840" y="990" />
+            </Array>
+            <mxPoint x="750" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ADD BOOK" vertex="1">
+          <mxGeometry height="40" width="140" x="660" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;HEADER&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;BOOK TITLE&lt;div&gt;BOOK AUTHOR&lt;/div&gt;&lt;div&gt;BOOK NOTES&lt;/div&gt;&lt;div&gt;BOOKS READ DATE&lt;/div&gt;&lt;div&gt;RECOMMEND&lt;/div&gt;&lt;div&gt;AMAZON LINK?&lt;/div&gt;&lt;div&gt;ISBN&amp;nbsp;&lt;/div&gt;&lt;div&gt;OLID&lt;/div&gt;&lt;div&gt;OCLC&lt;/div&gt;&lt;div&gt;LCCN&lt;/div&gt;&lt;div&gt;SUBMIT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="190" x="560" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BOOK ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SERIAL FOREIGN KEY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;BOOK AUTHOR&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CHARS 60&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BOOK READ DATE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; DATE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RECOMMEND&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;NUMBER&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;AMAZON LINK ?&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;CHARS 200&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="470" x="40" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-27" edge="1" parent="1" source="3B_UCKLOkOthI2SJjLlC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.447;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="3B_UCKLOkOthI2SJjLlC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3B_UCKLOkOthI2SJjLlC-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BOOK ID FOREIGN KEY&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;BOOK NOTES&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;CHARS 500&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="250" x="180" y="1090" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
